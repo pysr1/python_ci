@@ -9,4 +9,4 @@ def test_hello_world():
     assert output == 'hello world'
 
 def test_duckdb_query():
-    sql('SELECT 42'
+    sql('SELECT 42')
