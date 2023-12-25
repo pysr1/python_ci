@@ -1,4 +1,6 @@
-from module import hello_world
+def hello_world():
+    return 'hello world'
+
 
 def test_hello_world():
     output = hello_world()
